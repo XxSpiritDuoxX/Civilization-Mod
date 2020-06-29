@@ -1,0 +1,6 @@
+type: material
+name: Seed
+description: Seeds from a tree,can be used to grow more trees,takes a while to grow
+cost: 60
+flammability: 0.2
+color: 4d3e18
