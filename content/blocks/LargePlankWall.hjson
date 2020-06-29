@@ -1,0 +1,10 @@
+name: Large Planked Wall
+description: larger planked wall,When the smaller ones arent enough
+type: Wall
+health: 1350
+size: 2
+requirements: [
+  Plank/2
+]
+category: defense
+research: PlankedWall
