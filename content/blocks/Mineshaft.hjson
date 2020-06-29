@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Mineshaft
+description: Generates Stone 
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Stone/0
+    ]
+  }
+}
+requirements: [
+  Log/75
+  Plank/100
+  Civillian/10
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Stone/5
