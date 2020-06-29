@@ -1,10 +1,9 @@
 type: GenericSmelter
 name: Research Lab I
 description: Generates Research points every now and then,Research points are mostly used for crafting higher tier items
-liquidCapacity: 50
 size: 2
-hasPower: true
-hasLiquids: true
+hasPower: false
+hasLiquids: false
 hasItems: true
 craftTime: 60
 updateEffect: smeltsmoke
@@ -21,7 +20,7 @@ requirements: [
   Plank/100
 ]
 category: crafting
-research: copper-wall
+research: TreeGrower
 idleSound: respawning
 idleSoundVolume: 0
 outputItem: Research/1
