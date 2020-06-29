@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Tree
+description: Grows a tree then cuts it for wood,may take a while
+health: 200
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Seed/0
+    ]
+  }
+}
+requirements: [
+  Seed/1
+  Civillian/1
+]
+category: crafting
+research: copper-wall
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Log/3
