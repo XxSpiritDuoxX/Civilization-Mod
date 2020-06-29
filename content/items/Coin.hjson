@@ -1,0 +1,6 @@
+type: material
+name: Coin
+description: Currency used to buy items from random shops/items,don't waste it,as you can buy expensive and useful items with it
+cost: 0.01
+flammability: 0
+color: ffdd47
