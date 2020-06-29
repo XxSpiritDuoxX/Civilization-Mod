@@ -22,3 +22,4 @@ category: crafting
 research: copper-wall
 idleSound: respawning
 idleSoundVolume: 0
+outputItem: Seed/1
