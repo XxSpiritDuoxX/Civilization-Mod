@@ -1,0 +1,11 @@
+name: Large Stone Wall
+description: Larger Stone Wall
+type: Wall
+health: 2700
+size: 1
+requirements: [
+  Stone/8
+  Research/4
+]
+category: defense
+research: TreeGrower
