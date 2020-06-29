@@ -18,6 +18,7 @@ consumes: {
 requirements: [
   Plank/165
   Stone/100
+  Civillian/10
   Research/100
 ]
 category: crafting
