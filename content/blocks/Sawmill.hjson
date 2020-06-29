@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Sawmill
+description: Turns logs into Wooden Planks
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Log/1
+    ]
+  }
+}
+requirements: [
+  Log/20
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Plank/2
