@@ -1,0 +1,6 @@
+type: material
+name: Research Point
+description: Pure manifestation of Research,used for building higher tier items
+cost: 0.01
+flammability: 0
+color: a3aeff
