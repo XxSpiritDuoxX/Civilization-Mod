@@ -2,9 +2,9 @@ name: Wooden Wall
 description: a Weak wall to defend whatever city you have,though weak,its still pretty cheap
 type: Wall
 health: 200
-size: 2
+size: 1
 requirements: [
-  Log/2
+  Log/1
 ]
 category: defense
 research: TreeGrower
