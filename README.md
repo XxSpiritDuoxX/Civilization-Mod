@@ -1,15 +1,9 @@
-# ExampleMod
-An example of a simple mod for Mindustry.
+# Civilizations Mod!
+this is a mod which tries its best to be like your controlling a civilization
 
-## Importing
+## Features
+New towers and walls,also edited the Unloader to be accessible at early game
 
-Simply download this repository as a zip, then import it through the `Mods` dialog in Mindustry. Or, unzip this repo inside Mindustry's `mods/` folder.
+## Updates
 
-## Contributing
-
-Feel free to submit more example content to this repository. For example sprites, I recommend re-coloring existing blocks and using the existing Mindustry palette.
-
-## Want more mods?
-
-Simon Woodburry-Forget has a list [here](https://simonwoodburyforget.github.io/mindustry-mods/).
-If you want your mod on there, you can add it [here](https://github.com/SimonWoodburyForget/mindustry-mods/blob/master/CONTRIBUTING.md#adding-mods-to-the-listing).
+6/29/2020,1.0.0 ||| Release
