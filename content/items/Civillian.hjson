@@ -1,0 +1,6 @@
+type: material
+name: Civillian
+description: These are your people,you guide them to survival,they can be trained into soldiers or other jobs,you need these people to make jobs and etc
+cost: 0.1
+flammability: 0
+color: ffffff
