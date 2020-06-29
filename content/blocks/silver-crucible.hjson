@@ -3,7 +3,7 @@ name: "Silver Crucible"
 description: "Melts silver down for use in crafting."
 liquidCapacity: 50
 outputLiquid: {
-  liquid: molten-silver
+  liquid: water
   amount: 7
 }
 size: 2
@@ -13,7 +13,7 @@ craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
   power: 0.6
-  item: silver
+  item: Seed
 }
 requirements: [
   lead/50
@@ -21,7 +21,7 @@ requirements: [
   silicon/20
 ]
 category: crafting
-research: kiln
+research: copper-wall
 idleSound: respawning
 idleSoundVolume: 0.5
 
