@@ -1,0 +1,6 @@
+type: material
+name: Pickaxe
+description: Tool used by miners to mine stone or other ores
+cost: 0.1
+flammability: 0
+color: b09e68
