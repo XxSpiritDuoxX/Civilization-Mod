@@ -1,0 +1,10 @@
+name: Logo
+description: Logo of the mod
+type: Wall
+health: 1
+size: 1
+requirements: [
+  Log/1
+]
+category: defense
+research: TreeGrower
