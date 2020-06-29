@@ -1,0 +1,9 @@
+type: Conveyor
+name: Wooden Road
+description: used for Basic Transportation (Yellow 'Switch' in the middle says where the conveyor is facing)
+requirements: [
+  Log/1
+]
+category: distribution
+speed: 0.10
+research: TreeGrower
