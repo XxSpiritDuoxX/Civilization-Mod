@@ -1,0 +1,6 @@
+type: material
+name: Soldier
+description: These are the people that are ready to fight for you,They are trained enough to battle enemies and man turrets
+cost: 0.1
+flammability: 0
+color: d9d9d9
