@@ -1,0 +1,26 @@
+type: GenericSmelter
+name: Large Sawmill
+description: Upgraded Version of the normal Sawmill,now operated by 5 people
+health: 400
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Log/1
+    ]
+  }
+}
+requirements: [
+  Log/40
+  Plank/50
+  Civillian/5
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0.5
