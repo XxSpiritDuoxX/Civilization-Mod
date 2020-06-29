@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "[red]Undead Orimnogrox",
+    "description": "Heavily Armored beast That deals heavy damage to anything that approaches it,it has nothing on its mind exept its goal of destroying the town hall",
+    "speed": 0.075,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 20000,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 2
+    "weapon":{
+        "name": "hands",
+        "length":5.0,
+        "width":5.0,
+        "reload":90,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 10,
+				"speed": 5,
+				"damage": 300,
+		},
+        "shootSound": "shootSnap"
+    }
+}
