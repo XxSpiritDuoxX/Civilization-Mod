@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Research Lab III
+description: Generates a Huge amount of Research
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      gold-powder/2
+    ]
+  }
+}
+requirements: [
+  Plank/250
+  Stone/200
+  Iron/200
+  Civillian/10
+  Research/1000
+]
+category: crafting
+research: ResearchLab1
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Research/20
