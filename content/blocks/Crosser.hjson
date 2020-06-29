@@ -1,0 +1,9 @@
+type: Junction
+name: Crosser
+description: Makes items cross over one another (aka: Junction)
+health: 50
+hasItems: true
+itemCapacity: 1
+size: 1
+category: transportation
+research: TreeGrower
