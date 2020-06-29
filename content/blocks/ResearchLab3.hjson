@@ -18,7 +18,7 @@ consumes: {
 requirements: [
   Plank/250
   Stone/200
-  Iron/200
+  copper/200
   Civillian/10
   Research/1000
 ]
