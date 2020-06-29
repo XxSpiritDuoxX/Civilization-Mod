@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: House
+description: Houses your people and also populates them
+health: 500
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Civillian/0
+    ]
+  }
+}
+requirements: [
+  Seed/1
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Civillian/1
