@@ -18,6 +18,7 @@ consumes: {
 requirements: [
   Log/75
   Plank/100
+  Civillian/10
 ]
 category: crafting
 research: TreeGrower
