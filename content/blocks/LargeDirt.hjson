@@ -1,0 +1,10 @@
+name: Large Dirt Block
+description: omg its expensive dirt
+type: Wall
+health: 5000
+size: 4
+requirements: [
+  Research/1000000
+]
+category: defense
+research: TreeGrower
