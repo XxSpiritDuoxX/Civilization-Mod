@@ -1,0 +1,6 @@
+type: material
+name: Log
+description: Wood Chopped from a tree,used in many buildings mainly because its not too expensive and somewhat sturdy
+cost: 0.1
+flammability: 0.3
+color: 78693c
