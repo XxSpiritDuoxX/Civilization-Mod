@@ -1,0 +1,9 @@
+type: Router
+name: Splitter
+description: Splits items into different Conveyors (aka: Router)
+health: 50
+hasItems: true
+itemCapacity: 1
+size: 1
+category: defense
+research: TreeGrower
