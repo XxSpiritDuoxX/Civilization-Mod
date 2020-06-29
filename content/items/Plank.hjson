@@ -1,0 +1,6 @@
+type: material
+name: Plank
+description: Wood manufactured into a sturdy plank that can be used for walls or other buildings
+cost: 0.1
+flammability: 0.3
+color: aa9555
