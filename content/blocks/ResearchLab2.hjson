@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Research Lab II
+description: Generates a Large amount of Research
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      gold-powder/2
+    ]
+  }
+}
+requirements: [
+  Plank/165
+  Stone/100
+  Research/100
+]
+category: crafting
+research: ResearchLab1
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Research/5
