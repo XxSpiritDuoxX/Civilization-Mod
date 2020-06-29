@@ -1,0 +1,6 @@
+type: material
+name: Stone
+description: Resource from mines,useful for making stronger structures and making some basic ammo
+cost: 1
+flammability: 0
+color: 7e7e7e
