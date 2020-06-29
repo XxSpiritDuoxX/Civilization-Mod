@@ -7,5 +7,5 @@ size: 1
 requirements: [
   Plank/5
 ]
-category: defense
+category: distribution
 research: TreeGrower
