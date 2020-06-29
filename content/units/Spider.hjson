@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Spider",
+    "description": "Tamed 8 legged creatures that run quick and destroy buildings,if you dont want to end up with destroyed buildings then kill them quickly",
+    "speed": 0.2,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 4,
+    "health": 25,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 1
+    "weapon":{
+        "name": "hands",
+        "length":5.0,
+        "width":5.0,
+        "reload":15,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 10,
+				"speed": 8,
+				"damage": 25,
+		},
+        "shootSound": "shootSnap"
+    }
+}
