@@ -1,0 +1,22 @@
+type: SingleTypeGenerator
+name: Battery Uncharger
+description: Takes power from Charged batteries and then disposes them
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 5
+consumes: {
+  items: {
+    items: [
+      Battery/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  Iron/10
+  Civillian/1
+]
+category: power
+research: TreeGrower
