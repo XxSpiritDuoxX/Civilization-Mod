@@ -1,0 +1,6 @@
+type: material
+name: Wheat
+description: Can be used to feed Farm animals or to make bread 
+cost: 0.1
+flammability: 0.3
+color: d8ff5f
