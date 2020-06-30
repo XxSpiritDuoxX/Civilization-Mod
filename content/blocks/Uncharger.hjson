@@ -17,6 +17,7 @@ consumes: {
 requirements: [
   Iron/10
   Civillian/1
+  Research/30
 ]
 category: power
 research: TreeGrower
