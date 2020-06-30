@@ -1,17 +1,35 @@
 type: DoubleTurret
 name: Civillian Archer
-description: Basic ranged tower with an UNTRAINED Archer,Because of the untrained archer the tower will have a 50% decrease to all stats
+description: Basic ranged tower with an UNTRAINED Archer,Because of the untrained archer the tower will have a decrease to its stats
 health: 100
 size: 1
-reload: 120
-range: 50
+reload: 80
+range: 100
 ammoUseEffect: shellEjectSmall
-inaccuracy: 30
+inaccuracy: 10
 rotatespeed: 4
 ammo: {
   Log: {
-    speed: 2
-    damage: 20
+    speed: 4
+    damage: 40
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  Plank: {
+    speed: 6
+    damage: 65
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  Stone: {
+    speed: 6
+    damage: 100
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
