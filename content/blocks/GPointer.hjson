@@ -19,7 +19,6 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1900
   }
-  }
 }
 requirements: [
   Coin/1000
