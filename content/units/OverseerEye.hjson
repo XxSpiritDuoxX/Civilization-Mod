@@ -1,0 +1,32 @@
+{
+    "type": "Revenant",
+    "name": "Eye Of The Overseer",
+    "description": "After an Overseer dies,its Eyes detatch themselves from the body to continue wrecking havoc,these eyes are very durable and ussualy come in pairs of two with its 'brother',these eyes will easily destroy things in their path",
+    "speed": 0.1,
+    "flying":true,
+    "engineSize": 1,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 30000,
+    "itemCapacity": 40,
+    "targetAir":true,
+    "range": 4
+    "weapon":{
+        "name": "eye",
+        "length":10.0,
+        "width":10.0,
+        "reload":180,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 180,
+				"speed": 5,
+				"damage": 750,
+		},
+        "shootSound": "shootSnap"
+    }
+}
