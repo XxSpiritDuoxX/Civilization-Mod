@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Sawmill
 description: Turns logs into Wooden Planks
 size: 1
