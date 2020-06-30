@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Teaching Facility
+description: Teaches Uneducated people to be normal Civillians
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      UnCivillian/1
+    ]
+  }
+}
+requirements: [
+  Wood/25
+  Log/10
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Civillian/1
