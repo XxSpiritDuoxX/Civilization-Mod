@@ -1,0 +1,10 @@
+name: Letter A
+description: Its a planked wall with a symbol on it!
+type: Wall
+health: 300
+size: 1
+requirements: [
+  Plank/3
+]
+category: effect
+research: TreeGrower
