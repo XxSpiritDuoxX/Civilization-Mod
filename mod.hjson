@@ -3,4 +3,4 @@ displayName: "[white]Civilization[blue] Mod" //what displays in the mod selectio
 author: "[blue]Xx[white]SpiritDuo[blue]xX"
 description: "a mod which tries its best to look like your controlling a civilization,this mod adds tons of enemies and buildings,and makes your playstyle heavily different if you wan't to use it,however dont expect too much from it though,its still incomplete and everything is not perfect or what you expected from it"
 version: "1.0.0"
-minGameVersion: "104.6"
+minGameVersion: "104.5"
