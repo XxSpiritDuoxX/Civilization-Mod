@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Ballista",
+    "description": "Long Ranged Menaces that will destroy buildings if left alone,even outranging skeletons!",
+    "speed": 0.05,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 750,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 6
+    "weapon":{
+        "name": "Catapult",
+        "length":5.0,
+        "width":5.0,
+        "reload":120,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 5,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 5,
+				"damage": 200,
+		},
+        "shootSound": "shootSnap"
+    }
+}
