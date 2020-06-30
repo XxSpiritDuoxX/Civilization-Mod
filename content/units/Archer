@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Ground Archer",
+    "description": "Ground version of the Archer tower",
+    "speed": 0.1,
+    "flying":false,
+    "engineSize": 1,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 115,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 8
+    "weapon":{
+        "name": "bow",
+        "length":5.0,
+        "width":5.0,
+        "reload":120,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 120,
+				"speed": 8,
+				"damage": 65,
+		},
+        "shootSound": "shootSnap"
+    }
+}
