@@ -1,0 +1,13 @@
+name: Small Warehouse
+description: Stores People or items
+type: Vault
+itemCapacity: 150
+hasItems: true
+health: 250
+size: 1
+requirements: [
+  Log/20
+  Plank/30
+]
+category: effect
+research: vault
