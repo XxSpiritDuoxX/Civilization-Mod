@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: Tree Grower [Seeded]
-description: Grows trees using seeds,may take a while to grow [Grows faster than the copper version]
+name: Tree Grower (Seeded)
+description: Grows trees using seeds,may take a while to grow (Grows faster than the copper version)
 health: 500
 size: 2
 hasPower: false
