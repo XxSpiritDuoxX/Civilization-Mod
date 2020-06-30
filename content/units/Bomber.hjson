@@ -1,7 +1,7 @@
 {
     "type": "groundUnit",
     "name": "Kamikazi",
-    "description": "Kamikazis attempt to get close to your walls and explode and deal 1500 Damage",
+    "description": "Kamikazis attempt to get close to your walls and explode and deal 1000 Damage",
     "speed": 0.2,
     "flying":false,
     "engineSize": 4,
@@ -26,6 +26,7 @@
 				"lifetime": 10,
 				"speed": 5,
         "killShooter": true,
+	"splashDamageRadius": 3
         "instantDisappear": true,
 				"damage": 1000,
 		},
