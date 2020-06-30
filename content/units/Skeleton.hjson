@@ -10,7 +10,7 @@
     "health": 115,
     "itemCapacity": 40,
     "targetAir":false,
-    "range": 10
+    "range": 5
     "weapon":{
         "name": "bow",
         "length":5.0,
