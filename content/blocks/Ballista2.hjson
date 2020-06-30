@@ -1,0 +1,48 @@
+type: DoubleTurret
+name: Stone Ballista
+description: Stronger version of the ballista
+health: 650
+size: 2
+reload: 120
+maxAmmo: 100
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 8
+ammo: {
+  Log: {
+    speed: 8
+    damage: 300
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  Plank: {
+    speed: 10
+    damage: 375
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  Stone: {
+    speed: 8
+    damage: 475
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  Plank/50
+  Stone/35
+  Soldier/1
+  Research/15
+]
+category: turret
+research: TreeGrower
