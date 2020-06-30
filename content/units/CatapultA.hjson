@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Catapult",
+    "description": "Siege units of the Leigon,Made to destroy walls for their units to go through,its reccomended that you kill any of these variants first because they will destroy your walls",
+    "speed": 0.05,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 750,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 4
+    "weapon":{
+        "name": "Catapult",
+        "length":5.0,
+        "width":5.0,
+        "reload":120,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 5,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 60,
+				"speed": 3,
+				"damage": 350,
+		},
+        "shootSound": "shootSnap"
+    }
+}
