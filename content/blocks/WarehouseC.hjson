@@ -1,0 +1,13 @@
+name: Large Warehouse
+description: Stores People or items
+type: Vault
+itemCapacity: 3000
+hasItems: true
+health: 1000
+size: 1
+requirements: [
+  Log/350
+  Plank/500
+]
+category: effect
+research: vault
