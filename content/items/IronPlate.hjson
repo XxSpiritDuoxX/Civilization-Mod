@@ -1,0 +1,6 @@
+type: material
+name: Iron Plate
+description: used to build even more advanced structures or to construct certain items like Chips! (For Technology,not the food)
+cost: 0.1
+flammability: 0
+color: ffffff

@@ -1,6 +1,0 @@
-type: material
-name: Pickaxe
-description: Tool used by Soldiers to attack
-cost: 0.1
-flammability: 0
-color: b09e68
