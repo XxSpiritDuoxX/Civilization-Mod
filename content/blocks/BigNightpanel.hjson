@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Large Nightpanel
+description: Larger Nightpanel to grab more energy
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 0.5
+consumes: {
+  items: {
+    items: [
+      Iron/0
+    ]
+    optional: true
+  }
+}
+requirements: [
+  IronBar/20
+  Iron/40
+  Research/20
+]
+category: power
+research: TreeGrower
