@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Heat Generator
+description: Uses heat from burning items to produce a small amount of power
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 90
+powerProduction: 0.5
+consumes: {
+  items: {
+    items: [
+      Plank/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  Stone/10
+  Civillian/1
+  electrum/50
+]
+category: power
+research: TreeGrower
