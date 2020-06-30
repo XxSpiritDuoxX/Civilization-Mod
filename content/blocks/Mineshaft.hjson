@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Mineshaft
 description: Generates Stone 
 size: 2
