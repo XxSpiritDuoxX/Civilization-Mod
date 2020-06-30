@@ -23,7 +23,7 @@
         "ejectEffect": "shellEjectSmall",
         "bullet": {
 				"type": "BasicBulletType",
-				"lifetime": 120,
+				"lifetime": 30,
 				"speed": 8,
 				"damage": 40,
 		},
