@@ -19,7 +19,6 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 1900
   }
-  }
 }
 requirements: [
   Plank/50
