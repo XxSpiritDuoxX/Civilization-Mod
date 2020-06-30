@@ -1,0 +1,31 @@
+type: DoubleTurret
+name: Stone Catapult
+description: Say bye bye to those zombies with this catapult,It has AOE damage but sadly cant collide with flying units
+health: 650
+size: 2
+reload: 120
+maxAmmo: 100
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 4
+ammo: {
+  Stone: {
+    speed: 3
+    damage: 750
+    bulletWidth: 18
+    bulletHeight: 18
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    splashDamageRadius: 2
+  }
+}
+requirements: [
+  Plank/40
+  Stone/50
+  Soldier/1
+  Research/15
+]
+category: turret
+research: TreeGrower
