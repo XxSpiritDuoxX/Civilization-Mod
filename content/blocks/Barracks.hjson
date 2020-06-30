@@ -18,7 +18,7 @@ requirements: [
   Log/15
 ]
 category: crafting
-research: silver-crucible
+research: TreeGrower
 idleSound: respawning
 idleSoundVolume: 0
 outputItem: Soldier/1
