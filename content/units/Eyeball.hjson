@@ -1,0 +1,32 @@
+{
+    "type": "Revenant",
+    "name": "Eye",
+    "description": "Watchers and sentries of the dark leigon,they fly above troops and shoot buildings with their eyes,dealing heavy damage",
+    "speed": 0.1,
+    "flying":true,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 4,
+    "health": 250,
+    "itemCapacity": 40,
+    "targetAir":true,
+    "range": 4
+    "weapon":{
+        "name": "eye",
+        "length":5.0,
+        "width":5.0,
+        "reload":120,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 180,
+				"speed": 6,
+				"damage": 75,
+		},
+        "shootSound": "shootSnap"
+    }
+}
