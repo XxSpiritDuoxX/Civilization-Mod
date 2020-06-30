@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Battering Ram",
+    "description": "They will attempt to come close to your walls and hit it using this,They also have 800 DPS (Damage Per Second) if these arent already one of your priorities",
+    "speed": 0.6,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 9,
+    "health": 750,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 1
+    "weapon":{
+        "name": "ram",
+        "length":5.0,
+        "width":5.0,
+        "reload":90,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 10,
+				"speed": 5,
+				"damage": 800,
+		},
+        "shootSound": "shootSnap"
+    }
+}
