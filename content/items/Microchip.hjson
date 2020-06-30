@@ -1,0 +1,6 @@
+type: material
+name: Microchip
+description: Used to make Automatic things or other special items
+cost: 20
+flammability: 0
+color: ffffff
