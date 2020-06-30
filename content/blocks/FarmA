@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Wheat Farm
+description: Uses wheat seeds to grow wheat,
+health: 100
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 600
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      WheatSeed/5
+    ]
+  }
+}
+requirements: [
+  Plank/10
+  Civillian/1
+]
+category: crafting
+research: copper-wall
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Wheat/25
