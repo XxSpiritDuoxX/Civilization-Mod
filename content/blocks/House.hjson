@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: House
 description: Houses your people and also populates them
 health: 500
