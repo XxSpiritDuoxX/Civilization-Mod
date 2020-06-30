@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Furnace
+description: Melts iron into Iron bars
+size: 1
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Iron/2
+    ]
+  }
+}
+requirements: [
+  Iron/25
+  Research/20
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: IronBar/2
