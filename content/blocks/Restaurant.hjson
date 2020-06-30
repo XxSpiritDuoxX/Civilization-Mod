@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Restaurant
+description: Sells food to civillians and Gives money after 30 Seconds
+health: 250
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 1800
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Food/20
+    ]
+  }
+}
+requirements: [
+  Plank/30
+  Civillian/1
+]
+category: crafting
+research: copper-wall
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Coin/15
