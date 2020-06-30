@@ -1,0 +1,30 @@
+type: DoubleTurret
+name: Pointer
+description: Points to the nearest enemy,i dont know why you would want this but here it is,Lasts for at least 1 minute for every plank inside it,also even if it shoots "bullets",it does not damage anything
+health: 200
+size: 2
+reload: 12
+maxAmmo: 1900
+range: 2000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 15
+ammo: {
+  Plank: {
+    speed: 8
+    damage: 0
+    bulletWidth: 15
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1900
+  }
+  }
+}
+requirements: [
+  Plank/50
+  Civillian/1
+  Research/10
+]
+category: turret
+research: TreeGrower
