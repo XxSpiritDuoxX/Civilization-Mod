@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Barn
+description: Houses Animals and raises them until they become adults,in which then they are killed for food,needs wheat to feed the animals
+health: 250
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 1800
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Wheat/25
+    ]
+  }
+}
+requirements: [
+  Plank/30
+  Civillian/1
+]
+category: crafting
+research: copper-wall
+idleSound: respawning
+idleSoundVolume: 0
+outputItem: Food/10
