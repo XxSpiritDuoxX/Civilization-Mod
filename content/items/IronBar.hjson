@@ -1,0 +1,6 @@
+type: material
+name: Iron Bar
+description: Bar made out of Iron,used to build or craft more advanced iron structures
+cost: 0.1
+flammability: 0
+color: b09e68
