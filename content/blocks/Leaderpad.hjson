@@ -1,0 +1,11 @@
+name: Leader Bow Armory
+description: Transform into a Bowmaster
+type: MechPad
+mech: Leader
+size: 2
+category: upgrade
+research: TreeGrower
+requirements: [
+  Log/40
+  Plank/40
+]
