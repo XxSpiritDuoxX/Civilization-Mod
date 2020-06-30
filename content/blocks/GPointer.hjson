@@ -1,0 +1,28 @@
+type: DoubleTurret
+name: Golden Pointer
+description: Behold!,a new pointer that updates its enemy finders by 2x and is utterly useless apart from its extra health and duration!
+health: 2000
+size: 2
+reload: 12
+maxAmmo: 1900
+range: 2000
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 15
+ammo: {
+  Plank: {
+    speed: 8
+    damage: 0
+    bulletWidth: 15
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1900
+  }
+  }
+}
+requirements: [
+  Coin/1000
+]
+category: turret
+research: TreeGrower
