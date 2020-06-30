@@ -17,7 +17,6 @@ consumes: {
 requirements: [
   Stone/10
   Civillian/1
-  electrum/50
 ]
 category: power
 research: TreeGrower
