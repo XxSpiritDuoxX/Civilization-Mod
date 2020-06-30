@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Research Lab II
 description: Generates a Large amount of Research
 size: 2
