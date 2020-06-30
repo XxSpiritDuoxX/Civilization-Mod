@@ -1,0 +1,6 @@
+type: material
+name: Food
+description: Normal items used to feed civillians,can be sold via Restaurants or other eateries
+cost: 0.1
+flammability: 0.3
+color: bf0b0b
