@@ -1,6 +1,0 @@
-type: material
-name: Arrow
-description: Ammunition for Any Bow related items
-cost: 0.1
-flammability: 0
-color: b09e68
