@@ -3,15 +3,33 @@ name: Trained Archer
 description: Basic ranged tower with a Trained Archer,good for proper defence
 health: 200
 size: 1
-reload: 60
-range: 100
+reload: 40
+range: 140
 ammoUseEffect: shellEjectSmall
-inaccuracy: 20
+inaccuracy: 5
 rotatespeed: 8
 ammo: {
   Log: {
     speed: 4
     damage: 40
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  Plank: {
+    speed: 6
+    damage: 65
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  Stone: {
+    speed: 6
+    damage: 100
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
