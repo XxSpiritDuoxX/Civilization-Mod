@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Large Sawmill
 description: Upgraded Version of the normal Sawmill,now operated by 5 people
 health: 400
@@ -16,11 +16,12 @@ consumes: {
   }
 }
 requirements: [
-  Log/40
-  Plank/50
+  Log/75
+  Plank/100
   Civillian/5
 ]
 category: crafting
 research: TreeGrower
 idleSound: respawning
 idleSoundVolume: 0.5
+outputItem: Plank/3
