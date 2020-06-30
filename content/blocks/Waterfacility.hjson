@@ -1,24 +1,23 @@
 type: GenericCrafter
-name: "Silver Crucible"
-description: "Melts silver down for use in crafting."
+name: "Water Facility"
+description: "Facility that extracts water from the ground"
 liquidCapacity: 50
 outputLiquid: {
   liquid: water
-  amount: 7
+  amount: 2
 }
 size: 2
-hasPower: true
+hasPower: false
 hasLiquids: true
 craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
-  power: 0.6
-  item: Seed
+  item: Log/0
 }
 requirements: [
-  lead/50
-  copper/80
-  silicon/20
+  Stone/30
+  Plank/40
+  Research/10
 ]
 category: crafting
 research: copper-wall
