@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Academy
+description: Educates Civillians and makes them smarter
+size: 2
+health: 2000
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      Civillian/20
+    ]
+  }
+}
+requirements: [
+  Iron/200
+  Research/50
+]
+category: crafting
+research: TreeGrower
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: IronBar/2
