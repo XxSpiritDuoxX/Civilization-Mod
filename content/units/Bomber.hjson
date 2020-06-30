@@ -1,0 +1,34 @@
+{
+    "type": "groundUnit",
+    "name": "Kamikazi",
+    "description": "Kamikazis attempt to get close to your walls and explode and deal 1500 Damage",
+    "speed": 0.2,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 9,
+    "health": 200,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 1
+    "weapon":{
+        "name": "bomb",
+        "length":5.0,
+        "width":5.0,
+        "reload":90,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 10,
+				"speed": 5,
+        "killShooter": true,
+        "instantDisappear": true,
+				"damage": 1000,
+		},
+        "shootSound": "shootSnap"
+    }
+}
