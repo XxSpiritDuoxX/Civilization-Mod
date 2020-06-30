@@ -1,0 +1,10 @@
+name: Read my Description for better understanding of mod
+description: Welcome to Civ Mod!,to get started on any map,place a copper seed grower anywhere,collect the seeds and put them in your base then create a tree to make logs or place a second tree grower (seeded version),thats it to start a gameplay with the mod,the first conveyor you should make is the road,also there are buildings in the vanilla version that cost way less now (ussualy costs logs),this block was made for people who diddnt read the description of the github website
+type: Wall
+health: 1
+size: 3
+requirements: [
+  Plank/1000
+]
+category: defense
+research: PlankWall
