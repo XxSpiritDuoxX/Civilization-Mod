@@ -1,0 +1,47 @@
+type: DoubleTurret
+name: Wooden Ballista
+description: Heavy but strong tower that shoots strong and fast bolts at both flying and ground Units!,its only main problems is its low rotation speed and its very low reload
+health: 200
+size: 2
+reload: 120
+maxAmmo: 100
+range: 175
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 8
+ammo: {
+  Log: {
+    speed: 8
+    damage: 200
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  Plank: {
+    speed: 10
+    damage: 250
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+  Stone: {
+    speed: 8
+    damage: 350
+    bulletWidth: 12
+    bulletHeight: 15
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  Plank/40
+  Log/30
+  Soldier/1
+]
+category: turret
+research: TreeGrower
