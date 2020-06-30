@@ -1,0 +1,32 @@
+{
+    "type": "Revenant",
+    "name": "Elder Eye",
+    "description": "An older,bloody and superior version of the normal Eye,its remaining flesh and tendrils have become rotten but its own power and durability has become far more powerful",
+    "speed": 0.1,
+    "flying":true,
+    "engineSize": 1,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 1150,
+    "itemCapacity": 40,
+    "targetAir":true,
+    "range": 7
+    "weapon":{
+        "name": "eye",
+        "length":10.0,
+        "width":10.0,
+        "reload":180,
+        "shots":1,
+        "velocityRnd": 0.1,
+        "inaccuracy": 0,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 180,
+				"speed": 9,
+				"damage": 250,
+		},
+        "shootSound": "shootSnap"
+    }
+}
