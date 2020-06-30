@@ -1,0 +1,6 @@
+type: material
+name: Wheat Seed
+description: Used to grow wheat,given to Wheat farms to farm some wheat
+cost: 0.1
+flammability: 0.2
+color: 78693c
