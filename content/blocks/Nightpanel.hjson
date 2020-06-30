@@ -17,6 +17,7 @@ consumes: {
 requirements: [
   IronBar/5
   Iron/10
+  Research/5
 ]
 category: power
 research: TreeGrower
