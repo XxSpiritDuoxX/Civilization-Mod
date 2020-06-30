@@ -1,0 +1,22 @@
+type: SingleTypeGenerator
+name: Nightpanel
+description: is the opposite of a Solar panel,instead it grabs small bits of energy around it,however is only useul should solar panels be unaccessible or useless
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 0.1
+consumes: {
+  items: {
+    items: [
+      Iron/0
+    ]
+    optional: true
+  }
+}
+requirements: [
+  IronBar/5
+  Iron/10
+]
+category: power
+research: TreeGrower
