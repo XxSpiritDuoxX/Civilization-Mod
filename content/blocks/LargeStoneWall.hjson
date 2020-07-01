@@ -1,7 +1,7 @@
 name: Large Stone Wall
 description: Larger Stone Wall
 type: Wall
-health: 2700
+health: 3600
 size: 1
 requirements: [
   Stone/8
