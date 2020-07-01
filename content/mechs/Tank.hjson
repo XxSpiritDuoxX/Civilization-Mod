@@ -1,0 +1,24 @@
+name: Tank
+description: Modern Era tank that shoots rockets
+speed: 0.4
+boostSpeed: 0.5
+buildPower: 1
+engineColor: "666495"
+flying: false
+health: 6000
+weaponOffsetX: 4
+weapon: {
+  name: rocketz
+  length: 1.5
+  reload: 120
+  alternate: true
+  shots: 1
+  inaccuracy: 0
+  bullet: {
+  type: BasicBulletType
+  lifetime: 120
+  speed: 7
+  damage: 3000
+  splashDamageRadius: 5
+  }
+}
