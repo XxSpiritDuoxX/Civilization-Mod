@@ -1,0 +1,32 @@
+{
+    "type": "groundUnit",
+    "name": "Demon Arkamage",
+    "description": "Unleashes a burst of hell into anything into its path dealing medium damage,Very dangerous at close Range",
+    "speed": 0.1,
+    "flying":false,
+    "engineSize": 4,
+    "engineOffset": 10,
+    "hitsize": 7,
+    "health": 750,
+    "itemCapacity": 40,
+    "targetAir":false,
+    "range": 5
+    "weapon":{
+        "name": "bow",
+        "length":5.0,
+        "width":5.0,
+        "reload":120,
+        "shots":10,
+        "velocityRnd": 0.1,
+        "inaccuracy": 45,
+        "alternate": true,
+        "ejectEffect": "shellEjectSmall",
+        "bullet": {
+				"type": "BasicBulletType",
+				"lifetime": 30,
+				"speed": 6,
+				"damage": 60,
+		},
+        "shootSound": "shootSnap"
+    }
+}
