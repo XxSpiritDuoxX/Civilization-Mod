@@ -1,6 +1,6 @@
 name: Leader
 description: Proper leader of the people,shoots strong arrows over a distance
-speed: 0.25
+speed: 0.4
 boostSpeed: 1.5
 buildPower: 2
 engineColor: "666495"
