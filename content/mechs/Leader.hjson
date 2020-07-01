@@ -1,11 +1,11 @@
 name: Leader
 description: Proper leader of the people,shoots strong arrows over a distance
-speed: 0.1
+speed: 0.25
 boostSpeed: 1.5
 buildPower: 2
 engineColor: "666495"
 flying: false
-health: 400
+health: 450
 weaponOffsetX: 4
 weapon: {
   name: bigbow
