@@ -1,8 +1,8 @@
 name: Large Iron Wall
 description: Super Strong Wall made out of Iron
 type: Wall
-health: 2700
-size: 1
+health: 5400
+size: 2
 requirements: [
   Iron/8
   Research/10
