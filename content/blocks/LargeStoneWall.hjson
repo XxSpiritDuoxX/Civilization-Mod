@@ -2,7 +2,7 @@ name: Large Stone Wall
 description: Larger Stone Wall
 type: Wall
 health: 3600
-size: 1
+size: 2
 requirements: [
   Stone/8
   Research/4
