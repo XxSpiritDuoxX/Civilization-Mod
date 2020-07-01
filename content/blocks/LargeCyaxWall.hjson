@@ -1,0 +1,12 @@
+name: Large Cyax Wall
+description: Wall made out of Cyax
+type: Wall
+health: 27000
+size: 1
+requirements: [
+  Cyax/12
+  IronPlate/12
+  Research/80
+]
+category: defense
+research: TreeGrower
