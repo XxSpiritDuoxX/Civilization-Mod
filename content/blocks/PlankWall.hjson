@@ -1,7 +1,7 @@
 name: Planked Wall
 description: More stronger than its normal log counterpart
 type: Wall
-health: 300
+health: 500
 size: 1
 requirements: [
   Plank/2
