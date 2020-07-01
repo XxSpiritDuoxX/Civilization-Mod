@@ -1,7 +1,7 @@
 name: Stone Wall
 description: Wall made out of pure stone,Very sturdy and is ussualy enough to keep the dark leigon's small forces out
 type: Wall
-health: 600
+health: 800
 size: 1
 requirements: [
   Stone/2
