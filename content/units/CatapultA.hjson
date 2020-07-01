@@ -23,9 +23,10 @@
         "ejectEffect": "shellEjectSmall",
         "bullet": {
 				"type": "BasicBulletType",
-				"lifetime": 60,
+				"lifetime": 70,
 				"speed": 3,
-				"damage": 350,
+				"damage": 750,
+				"splashDamageRadius": 3,
 		},
         "shootSound": "shootSnap"
     }
