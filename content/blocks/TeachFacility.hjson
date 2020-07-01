@@ -15,7 +15,7 @@ consumes: {
   }
 }
 requirements: [
-  Wood/25
+  Plank/25
   Log/10
 ]
 category: crafting
