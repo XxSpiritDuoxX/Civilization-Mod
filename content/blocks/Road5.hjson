@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Armored Road",
+	"description": "Armored Version of the road,faster than the Iron Road,But Does not accept Items coming from the sides (aka: Armored Conveyor)",
+	"health": 150,
+	"requirements": [
+		{"item": "IronPlate", "amount": 2},
+ 		{"item": "Iron", "amount": 1},
+    {"item": "Research", "amount": 10},
+	],
+	"category": "distribution",
+	"speed": 0.35
+	"research": "TreeGrower"
+}
