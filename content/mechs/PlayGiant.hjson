@@ -1,0 +1,24 @@
+name: Giant
+description: Destroy all you see as the giant,though slow is very powerful
+speed: 0.3
+boostSpeed: 0.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 4500
+weaponOffsetX: 4
+weapon: {
+  name: sword
+  length: 1.5
+  reload: 90
+  alternate: true
+  shots: 1
+  inaccuracy: 0
+  bullet: {
+  type: BasicBulletType
+  lifetime: 30
+  speed: 5
+  damage: 1500
+  splashDamageRadius: 4
+  }
+}
