@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Mechanical Road",
+	"description": "Advanced Method of Transportation using Microchips and Iron Plates (Yellow 'Switch' in the middle says where the conveyor is facing)",
+	"health": 150,
+	"requirements": [
+		{"item": "IronPlate", "amount": 1},
+ 		{"item": "Microchip", "amount": 1},
+    {"item": "Research", "amount": 10},
+	],
+	"category": "distribution",
+	"speed": 0.5
+	"research": "TreeGrower"
+}
