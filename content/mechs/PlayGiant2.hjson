@@ -1,0 +1,24 @@
+name: War Giant
+description: More Powerful Giant,prepared for war!
+speed: 0.3
+boostSpeed: 0.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 8000
+weaponOffsetX: 4
+weapon: {
+  name: sword
+  length: 1.5
+  reload: 90
+  alternate: true
+  shots: 1
+  inaccuracy: 0
+  bullet: {
+  type: BasicBulletType
+  lifetime: 30
+  speed: 5
+  damage: 2500
+  splashDamageRadius: 4
+  }
+}
