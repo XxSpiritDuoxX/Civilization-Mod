@@ -1,0 +1,12 @@
+name: Fortified Wall
+description: Powerful Wall made to defend against the toughest of enemies
+type: Wall
+health: 3500
+size: 1
+requirements: [
+  IronBar/5
+  IronPlate/2
+  Research/10
+]
+category: defense
+research: TreeGrower
