@@ -1,0 +1,23 @@
+name: Elite Soldier
+description: Shoots rapid Bullets at enemies
+speed: 0.4
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 2000
+weaponOffsetX: 4
+weapon: {
+  name: bigbow
+  length: 1.5
+  reload: 6
+  alternate: true
+  shots: 1
+  inaccuracy: 5
+  bullet: {
+  type: BasicBulletType
+  lifetime: 200
+  speed: 8
+  damage: 150
+  }
+}
