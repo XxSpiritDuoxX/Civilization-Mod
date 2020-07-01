@@ -1,0 +1,6 @@
+type: material
+name: Battery
+description: Used to power machines
+cost: 1
+flammability: 0
+color: ffffff
