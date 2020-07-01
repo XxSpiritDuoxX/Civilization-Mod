@@ -1,0 +1,10 @@
+name: Iron Wall
+description: Very Strong Wall made out of Iron
+type: Wall
+health: 600
+size: 1
+requirements: [
+  Iron/2
+]
+category: defense
+research: TreeGrower
