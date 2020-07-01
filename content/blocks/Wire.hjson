@@ -1,0 +1,15 @@
+{
+	"type": "Conveyor",
+	"name": "Instawire",
+	"description": "Incredibly fast but costly method of transportation",
+	"health": 200,
+	"requirements": [
+		{"item": "IronPlate", "amount": 40},
+ 		{"item": "IronBar", "amount": 50},
+ 		{"item": "Cyax", "amount": 10},
+    {"item": "Research", "amount": 100},
+	],
+	"category": "distribution",
+	"speed": 3.00
+	"research": "TreeGrower"
+}
