@@ -1,9 +1,12 @@
-type: Conveyor
-name: Wooden Road
-description: used for Basic Transportation (Yellow 'Switch' in the middle says where the conveyor is facing)
-requirements: [
-  Log/1
-]
-category: distribution
-speed: 0.10
-research: TreeGrower
+{
+	"type": "Conveyor",
+	"name": "Wooden Road",
+	"description": "used for Basic Transportation (Yellow 'Switch' in the middle says where the conveyor is facing)",
+	"health": 50,
+	"requirements": [
+		{"item": "Log", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 0.12
+	"research": "TreeGrower"
+}
