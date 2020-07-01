@@ -1,0 +1,23 @@
+name: Assasin
+description: Very quick and deals alot of damage but with its downside of lower health
+speed: 0.6
+boostSpeed: 2.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 300
+weaponOffsetX: 4
+weapon: {
+  name: sword
+  length: 1.5
+  reload: 15
+  alternate: true
+  shots: 1
+  inaccuracy: 0
+  bullet: {
+  type: BasicBulletType
+  lifetime: 20
+  speed: 8
+  damage: 200
+  }
+}
