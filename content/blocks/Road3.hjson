@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Iron Road",
+	"description": "used for Basic Transportation (Yellow 'Switch' in the middle says where the conveyor is facing)",
+	"health": 75,
+	"requirements": [
+		{"item": "Iron", "amount": 1},
+    {"item": "Research", "amount": 5},
+	],
+	"category": "distribution",
+	"speed": 0.25
+	"research": "TreeGrower"
+}
