@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor",
+	"name": "Stone Road",
+	"description": "used for Basic Transportation (Yellow 'Switch' in the middle says where the conveyor is facing)",
+	"health": 75,
+	"requirements": [
+		{"item": "Stone", "amount": 1},
+    {"item": "Research", "amount": 1},
+	],
+	"category": "distribution",
+	"speed": 0.2
+	"research": "TreeGrower"
+}
