@@ -1,0 +1,6 @@
+type: material
+name: Iron
+description: Strong and sturdy material,can be used to make strong sructures
+cost: 1
+flammability: 0
+color: ffffff
