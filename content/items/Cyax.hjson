@@ -1,0 +1,6 @@
+type: material
+name: Cyax
+description: a Cyan colored metal found underground,known to be very strong
+cost: 10
+flammability: 0
+color: a3aeff
